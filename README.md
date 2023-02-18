@@ -18,7 +18,7 @@
   原來這樣建立後每個套件都不會互相影響拉~ cool \
   \
   建立好後就會出現env資料夾 \
-  ![image](https://user-images.githubusercontent.com/84761318/219600906-24961f87-6ba3-44a7-b4d2-365d1d4aef69.png)
+  ![image](https://user-images.githubusercontent.com/84761318/219600906-24961f87-6ba3-44a7-b4d2-365d1d4aef69.png) 
 
 ### 啟動虛擬環境
   ```
@@ -26,11 +26,11 @@
   ```
   啟用後在開頭的提示符會顯示`(env)...` \
   此時就切換成虛擬環境 \
-  ![image](https://user-images.githubusercontent.com/84761318/219605440-7c820abf-fb5e-4dcb-9b47-3da4f6c34da1.png)
+  ![image](https://user-images.githubusercontent.com/84761318/219605440-7c820abf-fb5e-4dcb-9b47-3da4f6c34da1.png) 
   
 ### 安裝套件
   目前套件有以下數量 \
-  ![image](https://user-images.githubusercontent.com/84761318/219827241-6d224d45-98d1-4029-aa74-9ec32b8cb5aa.png)
+  ![image](https://user-images.githubusercontent.com/84761318/219827241-6d224d45-98d1-4029-aa74-9ec32b8cb5aa.png) \
   安裝requirements.txt內所需的套件 \
   ```
   python -m pip install -r requirements.txt
@@ -38,7 +38,7 @@
   我有發現原本沒有輸入`python -m`的話會出現權限問題，而無法順利安裝(原因不得而知，如果有了解的朋友可以提市就太感謝了) \
   \
   安裝完後的套件數量: \
-  ![image](https://user-images.githubusercontent.com/84761318/219828655-e09367f3-7912-4cf8-a5dd-3866ea10183f.png)
+  ![image](https://user-images.githubusercontent.com/84761318/219828655-e09367f3-7912-4cf8-a5dd-3866ea10183f.png) \
   這樣就成功已虛擬環境進行測試了 \
 ### 退出虛擬環境
   ```
