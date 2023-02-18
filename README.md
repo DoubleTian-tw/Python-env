@@ -5,7 +5,9 @@
   ```
   原來是建立虛擬環境的意思，就順便把github當blog紀錄一下
 
-## 建立虛擬環境
+## 步驟
+
+### 建立擬環境
   ```
   python -m venv env
   ```
@@ -25,3 +27,21 @@
   啟用後在開頭的提示符會顯示`(env)...` \
   此時就切換成虛擬環境 \
   ![image](https://user-images.githubusercontent.com/84761318/219605440-7c820abf-fb5e-4dcb-9b47-3da4f6c34da1.png)
+  
+### 安裝套件
+  目前套件有以下數量 \
+  ![image](https://user-images.githubusercontent.com/84761318/219827241-6d224d45-98d1-4029-aa74-9ec32b8cb5aa.png)
+  安裝requirements.txt內所需的套件 \
+  ```
+  python -m pip install -r requirements.txt
+  ```  
+  我有發現原本沒有輸入`python -m`的話會出現權限問題，而無法順利安裝(原因不得而知，如果有了解的朋友可以提市就太感謝了) \
+  \
+  安裝完後的套件數量: \
+  ![image](https://user-images.githubusercontent.com/84761318/219828655-e09367f3-7912-4cf8-a5dd-3866ea10183f.png)
+  這樣就成功已虛擬環境進行測試了 \
+### 退出虛擬環境
+  ```
+  deactivate
+  ```
+  如果沒有使用的話需要到工作管理員中關閉喔~
