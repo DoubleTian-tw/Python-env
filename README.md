@@ -22,7 +22,7 @@
 
 ### 啟動虛擬環境
   ```
-  D:your-file-path>env/bin/activate
+  D:your-file-path>env/Scripts/activate
   ```
   啟用後在開頭的提示符會顯示`(env)...` \
   此時就切換成虛擬環境 \
